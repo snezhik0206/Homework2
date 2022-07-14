@@ -43,13 +43,3 @@ class Reviewer(Mentor):
                 student.grades[course] = [grade]
         else:
             return 'Ошибка'
-
-
-# lecturer = Lecturer("Oleg", "Bulygyn")
-# lecturer.courses_attached.append("Python")
-#
-# student = Student("Igor", "Kalashnikov", "Man")
-# student.courses_in_progress.append("Python")
-# student.rate_lecture(lecturer, "Python", 5)
-# student.rate_lecture(lecturer, "Python", 5)
-# print(lecturer.grades)
