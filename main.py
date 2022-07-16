@@ -10,6 +10,7 @@ class Student:
     def add_courses(self, course_name):
         self.finished_course.append(course_name)
 
+    # Метод оценки за лекцию
     def rate_lecture(self, lecturer, course, grade):
         if isinstance(lecturer, Lecturer) and course in lecturer.courses_attached and \
                 course in self.courses_in_progress:
